@@ -1,0 +1,395 @@
+/* --Nav Bar-- */
+
+.navbar-deco {
+    padding: 12px;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Marck Script', cursive;
+    background-color: rgba(72, 126, 176, 0.3);
+}
+
+.navbar-deco a:hover {
+    background-color: rgba(72, 126, 176, 0.4);
+    border-radius: 10px;
+}
+
+.nav--item {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+/* --Nav Bar Hover Effect-- */
+
+/* --Pop-- */
+
+@-webkit-keyframes hvr-pop {
+    50% {
+        -webkit-transform: scale(1.2);
+        transform: scale(1.2);
+    }
+}
+
+@keyframes hvr-pop {
+    50% {
+        -webkit-transform: scale(1.2);
+        transform: scale(1.2);
+    }
+}
+
+.hvr-pop {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+}
+
+.hvr-pop:hover,
+.hvr-pop:focus,
+.hvr-pop:active {
+    -webkit-animation-name: hvr-pop;
+    animation-name: hvr-pop;
+    -webkit-animation-duration: 0.3s;
+    animation-duration: 0.3s;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1;
+}
+
+/* --Landing background Image of index.html-- */
+
+.containertop {
+    background-color: #00a8ff;
+    background: url('../images/kerrywayhiking.jpg') no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+}
+
+/* --Landing background Image of outdoor.html-- */
+
+.containertop-outdoor {
+    background-color: #00a8ff;
+    background: url('../images/ballach1.jpg') no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+}
+
+/* --Landing background Image of food.html-- */
+
+.containertop-food {
+    background-color: #00a8ff;
+    background: url('../images/guinness.jpg') no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+}
+
+/* --Landing background Image of accommodation.html-- */
+
+.containertop-accom {
+    background-color: #00a8ff;
+    background: url('../images/blackstoneshouse.jpg') no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+}
+
+/* --Landing background Image of contact.html-- */
+
+.containertop-contact {
+    background-color: #00a8ff;
+    background: url('../images/coose1.jpg') no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+}
+
+/* --Welcome Text on each page-- */
+
+.content {
+    position: relative;
+    text-transform: uppercase;
+    text-align: center;
+
+}
+
+.content p {
+    color: #fafafa;
+    font-size: 30px;
+    letter-spacing: 16px;
+    padding-bottom: 10px;
+}
+
+/* --Top Section Columns & Rows-- */
+
+.row-top {
+    height: 250px;
+    padding-top: 15px;
+}
+
+.col1 {
+    height: auto;
+}
+
+.col2 {
+    height: 250px;
+    margin-top: 5px
+}
+
+.kerrywaymap {
+    display: block;
+    margin: auto;
+    background: url('../images/kerrywaymap.jpg') no-repeat;
+    background-size: cover;
+    width: 750px;
+    height: 524px;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+
+}
+
+/* --Middle Sections, fonts-- */
+
+.colmiddle {
+    padding: 12px;
+    text-align: center;
+}
+
+.content-title {
+    text-align: center;
+    font-family: 'Marck Script', cursive;
+    padding: 12px;
+    color: #487eb0;
+    text-decoration: none;
+    font-size: 30px;
+    text-transform: none;
+}
+
+.content-description {
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    letter-spacing: 1px;
+    text-align: center;
+
+}
+
+/* --contact form section-- */
+
+.container-form {
+    height: 710px;
+}
+
+.col-contactform {
+    padding-top: 10px;
+}
+
+.form-custom {
+    padding: 5px;
+}
+
+/*-- bottom section --*/
+
+.col-bottom {
+    padding-top: 15px;
+    text-align: center;
+}
+
+/* --Footer background Image-- */
+
+.container-bottom {
+    background: url('../images/bogcotton.jpg') no-repeat;
+    background-size: cover;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    padding: 0px;
+}
+
+/* --Opaque Overlay-- */
+
+.opaque-overlay {
+    position: relative;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.font-white {
+    color: #fafafa;
+}
+
+.font-blue {
+    color: #487eb0;
+    ;
+}
+
+/* --Footer & Social Media Icons-- */
+
+.row-bottom-footer {
+    height: 100px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+.col-footer {
+    padding-bottom: 15px;
+    padding-top: 3px;
+    text-align: center;
+}
+
+.custom-footer {
+    margin-top: 25px;
+    text-align: center;
+    font-family: 'Marck Script', cursive;
+    color: #fafafa;
+    text-decoration: none;
+    font-size: 25px;
+    text-transform: none;
+}
+
+/* --Social Icons Hover effects-- */
+
+.fab {
+    padding: 5px;
+    font-size: 35px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 5px;
+    border-radius: 10%;
+
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    text-align: center;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    margin: 0;
+    padding: 0;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    height: 5vh;
+}
+
+a {
+    padding: 0px 10px;
+}
+/* --Social Media Icons-- */
+
+/* --Facebook Icon-- */
+.wrapper a:nth-child(1) {
+    color: #fafafa;
+    cursor: pointer;
+    text-shadow: 0px 7px 10px rgba(0, 0, 0, 0.4);
+    -webkit-transition: all ease-in-out 150ms;
+    -o-transition: all ease-in-out 150ms;
+    transition: all ease-in-out 150ms;
+}
+
+.wrapper a:nth-child(1):hover {
+    color: #2980b9;
+    margin-top: -10px;
+    text-shadow: 0px 16px 10px rgba(0, 0, 0, 0.3);
+    -webkit-transform: translate(0px, -5px);
+    -ms-transform: translate(0px, -5px);
+    transform: translate(0px, -5px);
+}
+
+/* --Youtube Icon-- */
+.wrapper a:nth-child(2) {
+    color: #fafafa;
+    cursor: pointer;
+    text-shadow: 0px 7px 10px rgba(0, 0, 0, 0.4);
+    -webkit-transition: all ease-in-out 150ms;
+    -o-transition: all ease-in-out 150ms;
+    transition: all ease-in-out 150ms;
+}
+
+.wrapper a:nth-child(2):hover {
+    color: #e74c3c;
+    margin-top: -10px;
+    text-shadow: 0px 16px 10px rgba(0, 0, 0, 0.3);
+    -webkit-transform: translate(0px, -5px);
+    -ms-transform: translate(0px, -5px);
+    transform: translate(0px, -5px);
+}
+
+/* --Google Icon-- */
+.wrapper a:nth-child(3) {
+    color: #fafafa;
+    cursor: pointer;
+    text-shadow: 0px 7px 10px rgba(0, 0, 0, 0.5);
+    -webkit-transition: all ease-in-out 150ms;
+    -o-transition: all ease-in-out 150ms;
+    transition: all ease-in-out 150ms;
+}
+
+.wrapper a:nth-child(3):hover {
+    color: #3498db;
+    margin-top: -10px;
+    text-shadow: 0px 14px 10px rgba(0, 0, 0, 0.4);
+    -webkit-transform: translate(0px, -5px);
+    -ms-transform: translate(0px, -5px);
+    transform: translate(0px, -5px);
+}
+
+/* --Instagram Icon-- */
+.wrapper a:nth-child(4) {
+    color: #fafafa;
+    cursor: pointer;
+    text-shadow: 0px 7px 10px rgba(0, 0, 0, 0.5);
+    -webkit-transition: all ease-in-out 150ms;
+    -o-transition: all ease-in-out 150ms;
+    transition: all ease-in-out 150ms;
+}
+
+.wrapper a:nth-child(4):hover {
+    color: #c0392b;
+    margin-top: -10px;
+    text-shadow: 0px 14px 10px rgba(0, 0, 0, 0.4);
+    -webkit-transform: translate(0px, -5px);
+    -ms-transform: translate(0px, -5px);
+    transform: translate(0px, -5px);
+}
